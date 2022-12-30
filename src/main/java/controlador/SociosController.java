@@ -56,18 +56,13 @@ public class SociosController extends HttpServlet
         else if(accion.equals("actualizar"))
         {
             int id=Integer.parseInt(request.getParameter("id"));
-            System.out.println(id);
             String nombre=request.getParameter("nombre");
-            System.out.println(nombre);
             String apellido=request.getParameter("apellido");
-            System.out.println(apellido);
             String direccion=request.getParameter("direccion");
-            System.out.println(direccion);
             String localidad=request.getParameter("localidad");
             LocalDate fnac=LocalDate.parse(request.getParameter("fnac"));
             String email=request.getParameter("email");
             String telefono=request.getParameter("telefono");
-            System.out.println(id);
             
             
             
